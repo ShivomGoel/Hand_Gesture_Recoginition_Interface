@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    background-image: radial-gradient(circle at center, #020610 0%, #070e25 40%, #20364b 100%);
+    margin: 0;
+    padding: 0;
+}
+.glow {
+    color: #fff;
+    font-size: 36px;
+    text-align: center;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+}
+h1 {
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    width: 100%;
+}
+.wrapper {
+    margin-top: 26%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+button a {
+    text-decoration: none;
+    color: purple;
+}
+button {
+    border-radius: 10px;
+    background-color: yellow;
+    color: white;
+    border-radius: none;
+    width: 400px;
+    height: 230px;
+    font-size: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+    z-index: 10;
+}
+
+button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+button:active {
+    transform: scale(0.9);
+}
+#bg-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
